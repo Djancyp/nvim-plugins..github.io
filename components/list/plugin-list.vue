@@ -4,7 +4,7 @@
       {{ totalCount }}/{{ searchCount }}
     </span>
     <ul
-      class="mt-10 container grid  gap-4 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1"
+      class="mt-10 container grid gap-4 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1"
     >
       <li
         v-for="plugin in list"
@@ -19,9 +19,6 @@
           <span class="absolute top-2 right-2 text-xs text-gray-900 font-bold">
             {{ plugin.author }}
           </span>
-          <span class="absolute bottom-1 right-1 text-xs text-gray-900"
-            >Preconfigured Configurations</span
-          >
           <strong>{{ plugin.displayName }} </strong>
           <span>{{ plugin.description }} </span>
         </a>
