@@ -1,9 +1,13 @@
 module.exports = [
     {
+        displayName: 'Ui',
+        category: 'ui',
+    },
+    {
         displayName: 'Plugin Manager',
         category: 'plugin_manager',
     },
-    {
+    { 
         displayName: 'LSP',
         category: 'LSP',
     },

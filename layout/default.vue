@@ -29,10 +29,16 @@ export default {
   methods: {
     sortSearch(val) {
       if (val) {
-          // add only this.plugins.tags matching the search
-            this.listPlugins = this.plugins.filter(plugin => {
-              return plugin.tags.some(tag => tag.toLowerCase().includes(val.toLowerCase()))
-            })
+        // add only this.plugins.tags matching the search
+        this.listPlugins = this.plugins.filter((plugin) => {
+          return (
+            plugin.tags.some((tag) =>
+              tag.toLowerCase().includes(val.toLowerCase())
+            ) ||
+            plugin.displayName.toLowerCase().includes(val.toLowerCase()) ||
+            plugin.author.toLowerCase().includes(val.toLowerCase())
+          )
+        })
       } else {
         this.listPlugins = this.plugins
       }
