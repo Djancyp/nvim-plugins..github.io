@@ -1,7 +1,7 @@
 export default {
     target: 'static',
     router: {
-        base: '/nvim-plugins..github.io/'
+        base: '/nvim-plugins.github.io/'
     },
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
