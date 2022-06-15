@@ -1,6 +1,5 @@
 <template>
   <div class="search-box w-full mt-10 flex flex-row relative">
-    <img src="../../static/images/logo.png" class="absolute logo"  />
     <input
       ref="search"
       v-model="search"
@@ -8,10 +7,10 @@
       type="text"
       placeholder="Search Plugin"
     />
-    <ul class="pt-5 list-disc text-blue-600">
-      <li>Plugin Name</li>
-      <li>Plugin Tags</li>
-      <li>Plugin Author</li>
+    <ul class="pt-5 list-disc text-blue-600 flex flex-row text-sm font-bold">
+      <li class="mx-4">Plugin Name</li>
+      <li class="mx-4">Plugin Tags</li>
+      <li class="mx-4">Plugin Author</li>
     </ul>
   </div>
 </template>
@@ -34,12 +33,6 @@ export default {
 }
 </script>
 <style lang="css">
-.logo{
-    width: 500px;
-    height: 500px;
-    z-index: -1;
-    bottom:100%;
-}
 .search-box {
   display: flex;
   align-items: center;

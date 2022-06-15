@@ -1,8 +1,18 @@
 <template>
-  <div>
+  <div class="relative">
+    <img src="../../static/images/logo.png" class="absolute logo" />
+
     <ul class="top-menu container">
-      <li v-for="m in menu" :key="m.repo" class="bg-green-500 shadow-md">
-        <a :href="m.category" class="text-gray-200">
+      <li
+        v-for="m in menu"
+        :key="m.repo"
+        class="shadow-md"
+        :class="[m.category === category ? 'bg-green-900' : 'bg-green-500']"
+      >
+        <a
+          class="text-gray-200 cursor-pointer"
+          @click="filterCategory(m.category)"
+        >
           {{ m.displayName }}
         </a>
       </li>
@@ -17,9 +27,33 @@ export default {
       required: true,
     },
   },
+  data() {
+    return {
+      category: '',
+    }
+  },
+  methods: {
+    filterCategory(m) {
+      if (this.category !== m) {
+        this.category = m
+      } else {
+        this.category = ''
+      }
+      this.$emit('filter', this.category)
+    },
+  },
 }
 </script>
 <style lang="css">
+.logo {
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .top-menu {
   display: flex;
   flex-wrap: wrap;

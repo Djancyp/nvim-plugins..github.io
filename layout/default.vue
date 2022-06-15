@@ -1,8 +1,12 @@
 <template>
   <div class="layout">
-    <catMenu :menu="menu" />
+    <catMenu :menu="menu" @filter="sortSearch" />
     <SearchBar @search="sortSearch" />
-    <List :list="listPlugins" />
+    <List
+      :list="listPlugins"
+      :total-count="totalCount"
+      :search-count="searchCount"
+    />
   </div>
 </template>
 <script>
@@ -24,6 +28,8 @@ export default {
       menu,
       plugins: Plugins,
       listPlugins: Plugins,
+      totalCount: Plugins.length,
+      searchCount: Plugins.length,
     }
   },
   methods: {
@@ -39,7 +45,9 @@ export default {
             plugin.author.toLowerCase().includes(val.toLowerCase())
           )
         })
+        this.searchCount = this.listPlugins.length
       } else {
+        this.searchCount = this.totalCount
         this.listPlugins = this.plugins
       }
     },
