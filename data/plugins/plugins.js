@@ -8463,42 +8463,949 @@ module.exports = [
             'JSON.', 'session'
         ]
     },
-      {
-    displayName: 'vim-ultest',
-    repo: 'rcarriga/vim-ultest',
-    author: 'rcarriga',
-    description: ' The ultimate testing plugin for NeoVim.',
-    tags: [
-      '',         'The',
-      'ultimate', 'testing',
-      'plugin',   'for',
-      'NeoVim.',  'test'
-    ]
-  },
-  {
-    displayName: 'jester',
-    repo: 'David-Kunz/jester',
-    author: 'David-Kunz',
-    description: ' A Neovim plugin to easily run and debug Jest tests.',
-    tags: [
-      '',       'A',
-      'Neovim', 'plugin',
-      'to',     'easily',
-      'run',    'and',
-      'debug',  'Jest',
-      'tests.', 'test'
-    ]
-  },
-  {
-    displayName: 'nvim-test',
-    repo: 'klen/nvim-test',
-    author: 'klen',
-    description: ' A Neovim wrapper for running tests.',
-    tags: [
-      '',       'A',
-      'Neovim', 'wrapper',
-      'for',    'running',
-      'tests.', 'test'
-    ]
-  }
+    {
+        displayName: 'vim-ultest',
+        repo: 'rcarriga/vim-ultest',
+        author: 'rcarriga',
+        description: ' The ultimate testing plugin for NeoVim.',
+        tags: [
+            '', 'The',
+            'ultimate', 'testing',
+            'plugin', 'for',
+            'NeoVim.', 'test'
+        ]
+    },
+    {
+        displayName: 'jester',
+        repo: 'David-Kunz/jester',
+        author: 'David-Kunz',
+        description: ' A Neovim plugin to easily run and debug Jest tests.',
+        tags: [
+            '', 'A',
+            'Neovim', 'plugin',
+            'to', 'easily',
+            'run', 'and',
+            'debug', 'Jest',
+            'tests.', 'test'
+        ]
+    },
+    {
+        displayName: 'nvim-test',
+        repo: 'klen/nvim-test',
+        author: 'klen',
+        description: ' A Neovim wrapper for running tests.',
+        tags: [
+            '', 'A',
+            'Neovim', 'wrapper',
+            'for', 'running',
+            'tests.', 'test'
+        ]
+    }, {
+        displayName: 'cphelper.nvim',
+        repo: 'p00f/cphelper.nvim',
+        author: 'p00f',
+        description: ' Neovim helper for competitive programming written in Lua.',
+        tags: [
+            '',
+            'Neovim',
+            'helper',
+            'for',
+            'competitive',
+            'programming',
+            'written',
+            'in',
+            'Lua.',
+            'competitive_programming'
+        ]
+    },
+    {
+        displayName: 'competitest.nvim',
+        repo: 'xeluxee/competitest.nvim',
+        author: 'xeluxee',
+        description: ' A plugin to automate testcases management and checking for Competitive Programming contests.',
+        tags: [
+            '',
+            'A',
+            'plugin',
+            'to',
+            'automate',
+            'testcases',
+            'management',
+            'and',
+            'checking',
+            'for',
+            'Competitive',
+            'Programming',
+            'contests.',
+            'competitive_programming'
+        ]
+    },
+    {
+        displayName: 'SpaceVim',
+        repo: 'SpaceVim/SpaceVim',
+        author: 'SpaceVim',
+        description: ' A community-driven modular vim/neovim distribution, like spacemacs but for vim/neovim.',
+        tags: [
+            '',
+            'A',
+            'community-driven',
+            'modular',
+            'vim/neovim',
+            'distribution,',
+            'like',
+            'spacemacs',
+            'but',
+            'for',
+            'vim/neovim.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'CosmicNvim',
+        repo: 'CosmicNvim/CosmicNvim',
+        author: 'CosmicNvim',
+        description: ' CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a dizzy COSMIC programming experience!',
+        tags: [
+            '',
+            'CosmicNvim',
+            'is',
+            'a',
+            'lightweight',
+            'and',
+            'opinionated',
+            'Neovim',
+            'config',
+            'for',
+            'web',
+            'development,',
+            'specifically',
+            'designed',
+            'to',
+            'provide',
+            'a',
+            'dizzy',
+            'COSMIC',
+            'programming',
+            'experience!',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'CodeArt',
+        repo: 'artart222/CodeArt',
+        author: 'artart222',
+        description: ' A fast general-purpose IDE written entirely in Lua with an installer for Linux/Windows/macOS and built in :CodeArtUpdate command for updating it.',
+        tags: [
+            '',
+            'A',
+            'fast',
+            'general-purpose',
+            'IDE',
+            'written',
+            'entirely',
+            'in',
+            'Lua',
+            'with',
+            'an',
+            'installer',
+            'for',
+            'Linux/Windows/macOS',
+            'and',
+            'built',
+            'in',
+            ':CodeArtUpdate',
+            'command',
+            'for',
+            'updating',
+            'it.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'doom-nvim',
+        repo: 'NTBBloodbath/doom-nvim',
+        author: 'NTBBloodbath',
+        description: ' Port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.',
+        tags: [
+            '',
+            'Port',
+            'of',
+            'the',
+            'doom-emacs',
+            'framework,',
+            'its',
+            'goal',
+            'is',
+            'to',
+            'add',
+            'useful',
+            'functions',
+            'to',
+            'Neovim',
+            'to',
+            'start',
+            'working',
+            'in',
+            'a',
+            'stable',
+            'and',
+            'efficient',
+            'development',
+            'environment',
+            'without',
+            'spending',
+            'a',
+            'lot',
+            'of',
+            'time',
+            'configuring',
+            'everything.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'nv-ide',
+        repo: 'crivotz/nv-ide',
+        author: 'crivotz',
+        description: ' Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, JavaScript).',
+        tags: [
+            '',
+            'Neovim',
+            'custom',
+            'configuration,',
+            'oriented',
+            'for',
+            'full',
+            'stack',
+            'developers',
+            '(rails,',
+            'ruby,',
+            'php,',
+            'html,',
+            'css,',
+            'SCSS,',
+            'JavaScript).',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'LunarVim',
+        repo: 'LunarVim/LunarVim',
+        author: 'LunarVim',
+        description: ' This project aims to help one transition away from VSCode, and into a superior text editing experience.',
+        tags: [
+            '',
+            'This',
+            'project',
+            'aims',
+            'to',
+            'help',
+            'one',
+            'transition',
+            'away',
+            'from',
+            'VSCode,',
+            'and',
+            'into',
+            'a',
+            'superior',
+            'text',
+            'editing',
+            'experience.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'VapourNvim',
+        repo: 'hackorum/VapourNvim',
+        author: 'hackorum',
+        description: ' A NeoVim config for THE ULTIMATE vim IDE-like experience.',
+        tags: [
+            '',
+            'A',
+            'NeoVim',
+            'config',
+            'for',
+            'THE',
+            'ULTIMATE',
+            'vim',
+            'IDE-like',
+            'experience.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'neovitality',
+        repo: 'vi-tality/neovitality',
+        author: 'vi-tality',
+        description: ' A full-featured NeoVim distribution, packaged with Nix Flake for easy installation and reproducibility.',
+        tags: [
+            '',
+            'A',
+            'full-featured',
+            'NeoVim',
+            'distribution,',
+            'packaged',
+            'with',
+            'Nix',
+            'Flake',
+            'for',
+            'easy',
+            'installation',
+            'and',
+            'reproducibility.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'NvChad',
+        repo: 'siduck76/NvChad',
+        author: 'siduck76',
+        description: ' An attempt to make Neovim cli as functional as an IDE while being very beautiful and less bloated.',
+        tags: [
+            '',
+            'An',
+            'attempt',
+            'to',
+            'make',
+            'Neovim',
+            'cli',
+            'as',
+            'functional',
+            'as',
+            'an',
+            'IDE',
+            'while',
+            'being',
+            'very',
+            'beautiful',
+            'and',
+            'less',
+            'bloated.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'nvoid',
+        repo: 'nvoid-lua/nvoid',
+        author: 'nvoid-lua',
+        description: ' Simple Neovim config written in Lua with all the modern features available in any IDE',
+        tags: [
+            '',
+            'Simple',
+            'Neovim',
+            'config',
+            'written',
+            'in',
+            'Lua',
+            'with',
+            'all',
+            'the',
+            'modern',
+            'features',
+            'available',
+            'in',
+            'any',
+            'IDE',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'defaults.nvim',
+        repo: 'mjlbach/defaults.nvim',
+        author: 'mjlbach',
+        description: ' An extremely small, single file, and commented configuration template demonstrating LSP integration, autocompletion, snippets, treesitter, and more.',
+        tags: [
+            '',
+            'An',
+            'extremely',
+            'small,',
+            'single',
+            'file,',
+            'and',
+            'commented',
+            'configuration',
+            'template',
+            'demonstrating',
+            'LSP',
+            'integration,',
+            'autocompletion,',
+            'snippets,',
+            'treesitter,',
+            'and',
+            'more.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: '.sea.nvim',
+        repo: 'cstsunfu/.sea.nvim',
+        author: 'cstsunfu',
+        description: ' A modular NeoVim configuration with beautiful UI and some useful features(Pomodoro Clock, Window Number).',
+        tags: [
+            '',
+            'A',
+            'modular',
+            'NeoVim',
+            'configuration',
+            'with',
+            'beautiful',
+            'UI',
+            'and',
+            'some',
+            'useful',
+            'features(Pomodoro',
+            'Clock,',
+            'Window',
+            'Number).',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'roshnivim',
+        repo: 'shaeinst/roshnivim',
+        author: 'shaeinst',
+        description: " Roshnivim, can be called neovim's distro, is a predefined configs so that you don't need 1000hr to setup neovim as an IDE.",
+        tags: [
+            '',
+            'Roshnivim,',
+            'can',
+            'be',
+            'called',
+            "neovim's",
+            'distro,',
+            'is',
+            'a',
+            'predefined',
+            'configs',
+            'so',
+            'that',
+            'you',
+            "don't",
+            'need',
+            '1000hr',
+            'to',
+            'setup',
+            'neovim',
+            'as',
+            'an',
+            'IDE.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'AstroNvim',
+        repo: 'AstroNvim/AstroNvim',
+        author: 'AstroNvim',
+        description: ' AstroNvim is an aesthetic and feature-rich Neovim config that is extensible and easy to use with a great set of plugins.',
+        tags: [
+            '',
+            'AstroNvim',
+            'is',
+            'an',
+            'aesthetic',
+            'and',
+            'feature-rich',
+            'Neovim',
+            'config',
+            'that',
+            'is',
+            'extensible',
+            'and',
+            'easy',
+            'to',
+            'use',
+            'with',
+            'a',
+            'great',
+            'set',
+            'of',
+            'plugins.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'nyoom.nvim',
+        repo: 'shaunsingh/nyoom.nvim',
+        author: 'shaunsingh',
+        description: ' Blazing fast, configurable, minimal and lispy neovim config written in Fennel. Base config for users to extend and add upon, leading to a more unique editing experience.'
+        ,
+        tags: [
+            '',
+            'Blazing',
+            'fast,',
+            'configurable,',
+            'minimal',
+            'and',
+            'lispy',
+            'neovim',
+            'config',
+            'written',
+            'in',
+            'Fennel.',
+            'Base',
+            'config',
+            'for',
+            'users',
+            'to',
+            'extend',
+            'and',
+            'add',
+            'upon,',
+            'leading',
+            'to',
+            'a',
+            'more',
+            'unique',
+            'editing',
+            'experience.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'CNvim',
+        repo: 'CanKolay3499/CNvim',
+        author: 'CanKolay3499',
+        description: ' A lightweight Neovim config for web development.',
+        tags: [
+            '',
+            'A',
+            'lightweight',
+            'Neovim',
+            'config',
+            'for',
+            'web',
+            'development.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'moduleVim',
+        repo: 'jrychn/moduleVim',
+        author: 'jrychn',
+        description: ' A very easy to use for backend and frontend, install lsp automatically.',
+        tags: [
+            '',
+            'A',
+            'very',
+            'easy',
+            'to',
+            'use',
+            'for',
+            'backend',
+            'and',
+            'frontend,',
+            'install',
+            'lsp',
+            'automatically.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'nvim',
+        repo: 'askfiy/nvim',
+        author: 'askfiy',
+        description: ' An excellent Neovim configuration, which is as powerful as Vscode, is lightning fast zap.',
+        tags: [
+            '',
+            'An',
+            'excellent',
+            'Neovim',
+            'configuration,',
+            'which',
+            'is',
+            'as',
+            'powerful',
+            'as',
+            'Vscode,',
+            'is',
+            'lightning',
+            'fast',
+            'zap.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'dusk.nvim',
+        repo: 'imbacraft/dusk.nvim',
+        author: 'imbacraft',
+        description: ' Dusk is a lightweight, aesthetically minimal Neovim config, written in Lua, able to provide for web and Java development.',
+        tags: [
+            '',
+            'Dusk',
+            'is',
+            'a',
+            'lightweight,',
+            'aesthetically',
+            'minimal',
+            'Neovim',
+            'config,',
+            'written',
+            'in',
+            'Lua,',
+            'able',
+            'to',
+            'provide',
+            'for',
+            'web',
+            'and',
+            'Java',
+            'development.',
+            'preconfigured_configurations'
+        ]
+    },
+    {
+        displayName: 'which-key.nvim',
+        repo: 'folke/which-key.nvim',
+        author: 'folke',
+        description: ' Neovim plugin that shows a popup with possible keybindings of the command you started typing.',
+        tags: [
+            '', 'Neovim',
+            'plugin', 'that',
+            'shows', 'a',
+            'popup', 'with',
+            'possible', 'keybindings',
+            'of', 'the',
+            'command', 'you',
+            'started', 'typing.',
+            'keybindings'
+        ]
+    },
+    {
+        displayName: 'legendary.nvim',
+        repo: 'mrjones2014/legendary.nvim',
+        author: 'mrjones2014',
+        description: ' Define your keymaps, commands, and autocommands as simple Lua tables, and create a legend for them at the same time, integrates with which-key.nvim.',
+        tags: [
+            '', 'Define',
+            'your', 'keymaps,',
+            'commands,', 'and',
+            'autocommands', 'as',
+            'simple', 'Lua',
+            'tables,', 'and',
+            'create', 'a',
+            'legend', 'for',
+            'them', 'at',
+            'the', 'same',
+            'time,', 'integrates',
+            'with', 'which-key.nvim.',
+            'keybindings'
+        ]
+    },
+    {
+        displayName: 'nvim-cartographer',
+        repo: 'Iron-E/nvim-cartographer',
+        author: 'Iron-E',
+        description: ' a more convenient :mapping syntax for Lua environments.',
+        tags: [
+            '',
+            'a',
+            'more',
+            'convenient',
+            ':mapping',
+            'syntax',
+            'for',
+            'Lua',
+            'environments.',
+            'keybindings'
+        ]
+    },
+    {
+        displayName: 'mapx.nvim',
+        repo: 'b0o/mapx.nvim',
+        author: 'b0o',
+        description: " A simpler key mapping API that mimics Neovim's :map-family of commands. Integrates with which-key.nvim.",
+        tags: [
+            '', 'A',
+            'simpler', 'key',
+            'mapping', 'API',
+            'that', 'mimics',
+            "Neovim's", ':map-family',
+            'of', 'commands.',
+            'Integrates', 'with',
+            'which-key.nvim.', 'keybindings'
+        ]
+    },
+    {
+        displayName: 'nest.nvim',
+        repo: 'LionC/nest.nvim',
+        author: 'LionC',
+        description: ' Lua utility to map keys concisely using cascading trees. Also allows binding Lua functions to keys.',
+        tags: [
+            '', 'Lua',
+            'utility', 'to',
+            'map', 'keys',
+            'concisely', 'using',
+            'cascading', 'trees.',
+            'Also', 'allows',
+            'binding', 'Lua',
+            'functions', 'to',
+            'keys.', 'keybindings'
+        ]
+    },
+    {
+        displayName: 'telescope-command-palette.nvim',
+        repo: 'LinArcX/telescope-command-palette.nvim',
+        author: 'LinArcX',
+        description: ' Lua plugin to create key-bindings and watch them with telescope.',
+        tags: [
+            '', 'Lua',
+            'plugin', 'to',
+            'create', 'key-bindings',
+            'and', 'watch',
+            'them', 'with',
+            'telescope.', 'keybindings'
+        ]
+    },
+    {
+        displayName: 'unruly-worker',
+        repo: 'slugbyte/unruly-worker',
+        author: 'slugbyte',
+        description: ' A ridiculously fun alternative keymap for the workman keyboard layout with nvim features like LSP support, built and configured with lua.',
+        tags: [
+            '', 'A',
+            'ridiculously', 'fun',
+            'alternative', 'keymap',
+            'for', 'the',
+            'workman', 'keyboard',
+            'layout', 'with',
+            'nvim', 'features',
+            'like', 'LSP',
+            'support,', 'built',
+            'and', 'configured',
+            'with', 'lua.',
+            'keybindings'
+        ]
+    },
+    {
+        displayName: 'command_center.nvim',
+        repo: 'FeiyouG/command_center.nvim',
+        author: 'FeiyouG',
+        description: ' Create and manage keybindings and commands in a more organized manner and search them quickly through Telescope.',
+        tags: [
+            '', 'Create',
+            'and', 'manage',
+            'keybindings', 'and',
+            'commands', 'in',
+            'a', 'more',
+            'organized', 'manner',
+            'and', 'search',
+            'them', 'quickly',
+            'through', 'Telescope.',
+            'keybindings'
+        ]
+    },
+    {
+        displayName: 'key-menu.nvim',
+        repo: 'linty-org/key-menu.nvim',
+        author: 'linty-org',
+        description: ' Key mapping hints in a floating window.',
+        tags: [
+            '', 'Key',
+            'mapping', 'hints',
+            'in', 'a',
+            'floating', 'window.',
+            'keybindings'
+        ]
+    }, {
+        displayName: 'tmux.nvim',
+        repo: 'aserowy/tmux.nvim',
+        author: 'aserowy',
+        description: ' Tmux integration for Neovim features pane movement and resizing from within Neovim.',
+        tags: [
+            '', 'Tmux',
+            'integration', 'for',
+            'Neovim', 'features',
+            'pane', 'movement',
+            'and', 'resizing',
+            'from', 'within',
+            'Neovim.', 'tmux'
+        ]
+    },
+    {
+        displayName: 'telescope-tmuxinator.nvim',
+        repo: 'danielpieper/telescope-tmuxinator.nvim',
+        author: 'danielpieper',
+        description: ' Integration for tmuxinator with telescope.nvim.',
+        tags: [
+            '',
+            'Integration',
+            'for',
+            'tmuxinator',
+            'with',
+            'telescope.nvim.',
+            'tmux'
+        ]
+    },
+    {
+        displayName: 'nvimux',
+        repo: 'hkupty/nvimux',
+        author: 'hkupty',
+        description: ' Neovim as tmux replacement.',
+        tags: ['', 'Neovim', 'as', 'tmux', 'replacement.', 'tmux']
+    },
+    {
+        displayName: 'Navigator.nvim',
+        repo: 'numToStr/Navigator.nvim',
+        author: 'numToStr',
+        description: ' Smoothly navigate between Neovim splits and Tmux panes.',
+        tags: [
+            '', 'Smoothly',
+            'navigate', 'between',
+            'Neovim', 'splits',
+            'and', 'Tmux',
+            'panes.', 'tmux'
+        ]
+    },
+    {
+        displayName: 'windex.nvim',
+        repo: 'declancm/windex.nvim',
+        author: 'declancm',
+        description: ' Collection of window functions which includes moving between, closing and maximizing Neovim splits and Tmux panes.',
+        tags: [
+            '', 'Collection',
+            'of', 'window',
+            'functions', 'which',
+            'includes', 'moving',
+            'between,', 'closing',
+            'and', 'maximizing',
+            'Neovim', 'splits',
+            'and', 'Tmux',
+            'panes.', 'tmux'
+        ]
+    },
+    {
+        displayName: 'distant.nvim',
+        repo: 'chipsenkbeil/distant.nvim',
+        author: 'chipsenkbeil',
+        description: ' Edit files, run programs, and work with LSP on a remote machine from the comfort of your local environment.',
+        tags: [
+            '', 'Edit',
+            'files,', 'run',
+            'programs,', 'and',
+            'work', 'with',
+            'LSP', 'on',
+            'a', 'remote',
+            'machine', 'from',
+            'the', 'comfort',
+            'of', 'your',
+            'local', 'environment.',
+            'remote_deployment'
+        ]
+    },
+    {
+        displayName: 'nvim-remote-containers',
+        repo: 'jamestthompson3/nvim-remote-containers',
+        author: 'jamestthompson3',
+        description: ' Develop inside docker containers, just like VSCode.',
+        tags: [
+            '',
+            'Develop',
+            'inside',
+            'docker',
+            'containers,',
+            'just',
+            'like',
+            'VSCode.',
+            'remote_deployment'
+        ]
+    },
+    {
+        displayName: 'nvim-dev-container',
+        repo: 'esensar/nvim-dev-container',
+        author: 'esensar',
+        description: ' Neovim devcontainer.json and general development container support.',
+        tags: [
+            '',
+            'Neovim',
+            'devcontainer.json',
+            'and',
+            'general',
+            'development',
+            'container',
+            'support.',
+            'remote_deployment'
+        ]
+    }, {
+        displayName: 'ataraxis.lua',
+        repo: 'henriquehbr/ataraxis.lua',
+        author: 'henriquehbr',
+        description: ' A zen mode for improving code readability on Neovim.',
+        tags: [
+            '',
+            'A',
+            'zen',
+            'mode',
+            'for',
+            'improving',
+            'code',
+            'readability',
+            'on',
+            'Neovim.',
+            'split_and_window'
+        ]
+    },
+    {
+        displayName: 'yorickpeterse',
+        repo: 'gitlab.com/yorickpeterse/nvim-window',
+        author: 'gitlab.com',
+        description: ' Easily jump between Neovim windows.',
+        tags: [
+            '',
+            'Easily',
+            'jump',
+            'between',
+            'Neovim',
+            'windows.',
+            'split_and_window'
+        ]
+    },
+    {
+        displayName: 'winshift.nvim',
+        repo: 'sindrets/winshift.nvim',
+        author: 'sindrets',
+        description: ' Rearrange your windows with ease.',
+        tags: [
+            '',
+            'Rearrange',
+            'your',
+            'windows',
+            'with',
+            'ease.',
+            'split_and_window'
+        ]
+    },
+    {
+        displayName: 'focus.nvim',
+        repo: 'beauwilliams/focus.nvim',
+        author: 'beauwilliams',
+        description: ' Auto-Focusing and Auto-Resizing Splits/Windows for Neovim written in Lua! Vim splits on steroids.',
+        tags: [
+            '', 'Auto-Focusing',
+            'and', 'Auto-Resizing',
+            'Splits/Windows', 'for',
+            'Neovim', 'written',
+            'in', 'Lua!',
+            'Vim', 'splits',
+            'on', 'steroids.',
+            'split_and_window'
+        ]
+    },
+    {
+        displayName: 'stabilize.nvim',
+        repo: 'luukvbaal/stabilize.nvim',
+        author: 'luukvbaal',
+        description: ' Stabilized window content on window open/close events.',
+        tags: [
+            '',
+            'Stabilized',
+            'window',
+            'content',
+            'on',
+            'window',
+            'open/close',
+            'events.',
+            'split_and_window'
+        ]
+    }
 ]
