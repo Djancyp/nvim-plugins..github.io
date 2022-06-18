@@ -9407,5 +9407,29 @@ module.exports = [
             'events.',
             'split_and_window'
         ]
-    }
+    },
+    {
+
+        displayName: 'lsp-range-format',
+        repo: 'Djancyp/lsp-range-format',
+        author: 'Djancyp',
+        description: 'Formatting range on LSP.',
+        tags: ['format', 'lsp', 'range', 'formatting', 'range on lsp', 'formatting']
+    },
+    {
+
+        displayName: 'cheat-sheet',
+        repo: 'Djancyp/cheat-sheet',
+        author: 'Djancyp',
+        description: 'Nvim light-weight cheat-sheet intagration.',
+        tags: ['cheatsheet', 'cheatsheet', 'nvim', 'lua', 'utils']
+    },
+    {
+
+        displayName: 'outline',
+        repo: 'Djancyp/outline',
+        author: 'Djancyp',
+        description: 'Simple but strong buffer managment for Neovim.',
+        tags: ['buffer', 'managmnet', 'nvim', 'lua', 'utils']
+    },
 ]
